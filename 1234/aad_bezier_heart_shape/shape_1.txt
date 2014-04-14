@@ -1,0 +1,17 @@
+
+size(500,500);
+background(0);
+stroke(10,175,96);
+strokeWeight(4);
+smooth();
+
+beginShape();
+
+vertex(100,150);
+fill(10,175,96);
+bezierVertex(280,240,120,290,300,100);
+bezierVertex(320,150,120,480,50,450);
+bezierVertex(150,300,150,200,100,150);
+
+endShape();
+
